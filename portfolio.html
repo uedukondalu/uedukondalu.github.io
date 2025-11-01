@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+      <div class="main">
+
+        <!-- Navbar -->
+        <div class="navbar">
+          
+  <ul class="navbar">
+  <li><a href="index.html">🏠 Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="skills.html">Skills</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="resume.html">Resume</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+        </div>
+
+        <!-- Profile Photo -->
+        <div class="logopic">
+          <img src="mypic.jpg" class="logo">
+        </div>
+
+        <!-- Info Section -->
+        <div class="info">
+          <h3>Hi, I'm U. Edukondalu</h3>
+          <h1>Web Developer</h1>
+          <h3>
+            A dedicated BTech student specializing in Computer Science Engineering (AI&ML)<br>
+            ACE Engineering College, Hyderabad.<br>
+            With a strong passion for programming and problem-solving,<br>
+            I thrive on exploring innovative technologies and applying them to practical, real-world scenarios.
+          </h3>
+          <a href="C:\Users\ueduk\OneDrive\Desktop\protfolio\UPPALA_EDUKONDALU_Resume.pdf"" download class="btn">📄 Download Resume</a>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="icons">
+          <a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="https://www.instagram.com/?hl=en" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="https://x.com/home" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+
+        <!-- Ionicons -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      </div>
+    </header>
+
+
+    <!-- JavaScript -->
+    <script>
+      function showSection(id) {
+        // hide all sections
+        document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+        // show selected
+        document.getElementById(id).classList.add('active');
+        // update navbar highlight
+        document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
+        event.target.classList.add('active');
+      }
+    </script>
+  
+  </body>
+</html>
