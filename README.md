@@ -1,3 +1,1 @@
 uedukondalu.github.io
-
-ll
