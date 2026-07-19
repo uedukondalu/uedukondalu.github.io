@@ -1,1 +1,1 @@
-uedukondalu.github.i
+uedukondalu.github.io
